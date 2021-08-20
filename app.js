@@ -40,6 +40,7 @@ comparePin.addEventListener('click', () => {
         notMatched.hidden = true;
         comparePin.disabled = true;
         pinInputBox.disabled = true;
+        pinGenerateBtn.disabled = true;
     }
     pinBox.value = '';
     pinInputBox.value = '';
